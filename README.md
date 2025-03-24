@@ -25,7 +25,7 @@ pip install opencv-python pytesseract pandas openpyxl
 Put your video file (e.g., input2.mp4) in the same folder as your Python script, or update the path in this line:
 video_path = "input2.mp4"
 
-5. Run the Script
+5. Run the Script:imagetotext.py
 It will:
 Process the video, Extract text from every 10th frame, Save the output to extracted_video_data.xlsx
 
