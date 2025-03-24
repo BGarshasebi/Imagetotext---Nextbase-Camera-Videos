@@ -7,7 +7,7 @@ import re
 pytesseract.pytesseract.tesseract_cmd = r"C:\Users\behnoush.garshasebi\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
 
 # Load video file
-video_path = "input2.mp4"  # Replace with your actual video file
+video_path = "input1.mp4"  # Replace with your actual video file
 cap = cv2.VideoCapture(video_path)
 
 frame_interval = 10  # Process every 10th frame
