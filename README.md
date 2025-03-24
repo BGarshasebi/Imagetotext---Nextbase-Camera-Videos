@@ -4,7 +4,7 @@ This project extracts textual information from a video using Python, OpenCV, and
 TUTORIAL:
 
 Notes:
-Two nextbase camera videos are shortened and also put in here as optional inputs and the 2 outputs to check with your own.
+one nextbase camera videos are shortened and also put in here as optional inputs and the 2 outputs to check with your own.
  This code extracts text from every 10th frame: means the code does not analyze every single frame in the video,  it skips 9 frames and only processes the 10th one. Which is faster and often enough for extracting changing information like speed, time, or GPS.
 But, the frame interval is customizable to control processing frequency.
 1. Install Tesseract OCR
